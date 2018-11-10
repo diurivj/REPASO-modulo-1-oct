@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <title>To do list</title>
+</head>
+<body>
+  
+<div id="container"> <!---Este es el padre de toda nuestra página--->
+  
+  <div id="add"> <!--Este es un hijo, pero a la vez es padre de lo de abajo-->
+    <h1>To do List</h1>
+    <form>
+      <input diego="diego" type="text" id="todo" placeholder="Agrega aqui tu todo">
+      <input type="submit" value="Add to do" id="submit">
+    </form>
+  </div>
+
+  <div id="list"> <!--Este es un hijo, pero a la vez es padre de lo de abajo-->
+    <h2>List of todos</h2>
+    <ul id="todo-list">
+
+    </ul>
+  </div>
+
+</div> <!--Aquí acaba el padre-->
+
+
+<script src="main.js"></script>
+</body>
+</html>
